@@ -1,0 +1,115 @@
+
+#container > ul { 
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+	
+}
+
+#container > ul > li {
+    color: #ffa600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+	font-size: 20px;
+}
+
+#container > ul > li > a:hover {
+    color: #e90e0e;
+    transition: 1s;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+	background-color: #380303; 
+}
+
+.imagem {
+	display: grid;
+}
+
+.imagem {
+	max-width: 350px;
+	margin: 0 auto;
+	border: 0px solid #290cac;
+}
+
+.imagem {
+	grid-template-columns: 350px;
+    grid-template-rows: 230px;
+
+}
+
+footer {
+    text-align: center;
+	font-size: 1.25em;
+	font-weight: normal;
+    color: white;
+	background-color: #001824;
+}
+
+.grid3 {
+	display: grid;
+}
+.grid3 {
+	max-width: 450px;
+	margin: 0 auto;
+	border: 0px solid #290cac;
+}
+
+.grid3 {
+	grid-template-columns: 500px;
+    grid-template-rows: 55px 55px 65px 120px 70px;
+}
+
+.formulario {
+	background-color:#01283b ;
+	width: 1349px;
+	height: 605px;
+}
+
+.form {
+	margin: 15px;
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+	width: 0px;
+	font-family: minhafonte;
+}
+
+input {
+	width: 380px;
+	height: 20px;
+}
+
+.fim {
+    margin: 5px;
+	text-align: center;
+	font-size: 0.8em;
+    border-radius: 10px;
+	color: #e4ab42;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 1.70em;
+	font-weight: normal;
+    color: yellow;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: normal;
+    color: #ffffff;
+}
+
+body {
+	font-family: monospace;
+	color: white;
+	margin: 0px;
+	padding-bottom: 0px;
+}
+
